@@ -15,8 +15,23 @@ export default function Hero() {
 
   return (
     <section id="home" className="min-h-screen flex items-center relative overflow-hidden">
-      {/* Background */}
+      {/* Animated Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-slate-800 to-background">
+        <div className="matrix-bg"></div>
+        {/* Floating Particles */}
+        {[...Array(5)].map((_, i) => (
+          <div
+            key={i}
+            className="floating-particle"
+            style={{
+              width: `${Math.random() * 6 + 4}px`,
+              height: `${Math.random() * 6 + 4}px`,
+              left: `${Math.random() * 100}%`,
+              animationDelay: `${Math.random() * 8}s`,
+              animationDuration: `${Math.random() * 4 + 8}s`
+            }}
+          ></div>
+        ))}
         <div
           className="absolute inset-0 opacity-10"
           style={{
@@ -59,17 +74,20 @@ export default function Hero() {
         </div>
 
         <div className="flex justify-center lg:justify-end animate-slideInRight">
-          <div className="relative">
-            <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-primary cyber-glow">
+          <div className="relative animate-float">
+            <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-primary cyber-glow animate-glow">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400"
+                src="/attached_assets/profile pic_1756181974784.jpg"
                 alt="Jyoti Ranjan Barik - Professional Headshot"
                 className="w-full h-full object-cover"
                 data-testid="img-profile"
               />
             </div>
-            <div className="absolute -top-4 -right-4 w-16 h-16 bg-accent rounded-full flex items-center justify-center animate-pulse-slow">
+            <div className="absolute -top-4 -right-4 w-16 h-16 bg-accent rounded-full flex items-center justify-center animate-bounce-slow">
               <i className="fas fa-shield-alt text-accent-foreground text-xl"></i>
+            </div>
+            <div className="absolute -bottom-4 -left-4 w-12 h-12 bg-primary rounded-full flex items-center justify-center animate-pulse-slow">
+              <i className="fas fa-lock text-primary-foreground text-lg"></i>
             </div>
           </div>
         </div>

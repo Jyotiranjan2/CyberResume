@@ -31,17 +31,33 @@ export default function About() {
             </p>
 
             <div className="grid grid-cols-2 gap-6 mb-8">
-              <div className="text-center p-4 bg-background rounded-lg border border-border">
-                <div className="text-3xl font-bold text-accent mb-2" data-testid="text-certifications-count">
+              <div className="terminal-card hanging-card text-center p-4 rounded-lg" style={{animationDelay: "0.2s"}}>
+                <div className="flex items-center justify-center mb-2">
+                  <div className="flex space-x-1 mr-2">
+                    <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+                    <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
+                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+                  </div>
+                  <span className="text-xs text-muted-foreground font-mono">stats.sh</span>
+                </div>
+                <div className="text-3xl font-bold text-accent mb-2 animate-glow" data-testid="text-certifications-count">
                   8+
                 </div>
-                <div className="text-muted-foreground">Certifications</div>
+                <div className="text-muted-foreground font-mono text-sm">$ echo "Certifications"</div>
               </div>
-              <div className="text-center p-4 bg-background rounded-lg border border-border">
-                <div className="text-3xl font-bold text-primary mb-2" data-testid="text-experience-years">
+              <div className="terminal-card hanging-card text-center p-4 rounded-lg" style={{animationDelay: "0.4s"}}>
+                <div className="flex items-center justify-center mb-2">
+                  <div className="flex space-x-1 mr-2">
+                    <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+                    <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
+                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+                  </div>
+                  <span className="text-xs text-muted-foreground font-mono">exp.sh</span>
+                </div>
+                <div className="text-3xl font-bold text-primary mb-2 animate-glow" data-testid="text-experience-years">
                   2+
                 </div>
-                <div className="text-muted-foreground">Years Learning</div>
+                <div className="text-muted-foreground font-mono text-sm">$ echo "Years Learning"</div>
               </div>
             </div>
 

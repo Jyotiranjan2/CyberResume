@@ -21,13 +21,28 @@ export default function Certifications({}: CertificationsProps) {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {certificates.map((cert) => (
+          {certificates.map((cert, index) => (
             <div
               key={cert.id}
-              className="certificate-hover bg-background rounded-xl p-6 border border-border cursor-pointer"
+              className="certificate-hover terminal-card hanging-card rounded-xl p-6 cursor-pointer"
               onClick={() => openCertificate(cert.id)}
               data-testid={`certificate-${cert.id}`}
+              style={{
+                animationDelay: `${index * 0.5}s`
+              }}
             >
+              {/* Terminal Header */}
+              <div className="flex items-center mb-4 pb-3 border-b border-border">
+                <div className="flex space-x-2 mr-4">
+                  <div className="w-3 h-3 bg-red-500 rounded-full"></div>
+                  <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
+                  <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+                </div>
+                <span className="text-xs text-muted-foreground font-mono">
+                  ~/certificates/{cert.id}.cert
+                </span>
+              </div>
+              
               <div className="flex items-center mb-4">
                 <div className={`w-12 h-12 ${cert.iconBg} rounded-lg flex items-center justify-center mr-4`}>
                   <i className={`${cert.icon} text-white text-xl`}></i>
@@ -37,11 +52,14 @@ export default function Certifications({}: CertificationsProps) {
                   <p className="text-muted-foreground text-sm">{cert.issuer}</p>
                 </div>
               </div>
-              <p className="text-muted-foreground text-sm mb-3 line-clamp-2">
-                {cert.description}
-              </p>
+              
+              <div className="code-block text-xs mb-3">
+                <span className="text-cyber-green">$</span> <span className="text-foreground">cat description.txt</span><br/>
+                <span className="text-muted-foreground">{cert.description}</span>
+              </div>
+              
               <div className="flex justify-between items-center">
-                <span className="text-primary font-semibold text-sm">
+                <span className="text-primary font-semibold text-sm font-mono">
                   {cert.date}
                 </span>
                 <i className="fas fa-external-link-alt text-muted-foreground"></i>
