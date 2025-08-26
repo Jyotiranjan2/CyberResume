@@ -77,7 +77,7 @@ export default function Hero() {
           <div className="relative animate-float">
             <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-primary cyber-glow animate-glow">
               <img
-                src="/attached_assets/profile pic_1756181974784.jpg"
+                src="/attached_assets/profile pic_1756183194366.jpg"
                 alt="Jyoti Ranjan Barik - Professional Headshot"
                 className="w-full h-full object-cover"
                 data-testid="img-profile"

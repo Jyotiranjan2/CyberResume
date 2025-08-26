@@ -24,10 +24,10 @@ export default function About() {
               Cybersecurity Analyst & Security Researcher
             </h3>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              I'm a passionate cybersecurity professional with a strong foundation in network security,
-              ethical hacking, and information security management. Through practical experience and
-              industry certifications, I've developed expertise in threat analysis, vulnerability assessment,
-              and security operations.
+              Final year Computer Science Engineering student at GIET University with a passion for cybersecurity.
+              Research intern at NIT Rourkela, specializing in Python application security and automated vulnerability
+              detection. Through hands-on projects and industry certifications, I've developed expertise in malware
+              analysis, ethical hacking, and security tool development.
             </p>
 
             <div className="grid grid-cols-2 gap-6 mb-8">
@@ -55,9 +55,9 @@ export default function About() {
                   <span className="text-xs text-muted-foreground font-mono">exp.sh</span>
                 </div>
                 <div className="text-3xl font-bold text-primary mb-2 animate-glow" data-testid="text-experience-years">
-                  2+
+                  3+
                 </div>
-                <div className="text-muted-foreground font-mono text-sm">$ echo "Years Learning"</div>
+                <div className="text-muted-foreground font-mono text-sm">$ echo "Projects Completed"</div>
               </div>
             </div>
 
