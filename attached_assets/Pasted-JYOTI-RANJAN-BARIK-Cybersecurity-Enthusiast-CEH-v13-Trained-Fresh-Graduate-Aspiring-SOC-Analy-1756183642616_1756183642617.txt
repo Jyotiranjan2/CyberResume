@@ -1,0 +1,88 @@
+JYOTI RANJAN BARIK
+Cybersecurity Enthusiast | CEH v13 Trained | Fresh Graduate | Aspiring SOC Analyst
+📧 jyotirbarik26@gmail.com
+📱 +91 6371053223
+📍 Rourkela, Odisha, India
+💻 GitHub: Jyotiranjan2
+🔗 LinkedIn: jyoti-ranjan-barik
+🎯 TryHackMe: Darkyhunter
+Professional Summary
+Fresh Computer Science Engineering graduate with specialization in cybersecurity and ethical hacking
+CEH v13 trained with hands-on experience through internships in penetration testing and vulnerability assessment
+Technical skills: Python programming, Linux systems, Wazuh, Nessus, and cybersecurity tools
+Research internship at NIT Rourkela developing security automation tools and vulnerability scanners
+Strong academic foundation with coursework in network security, digital forensics, and ethical hacking
+Seeking entry-level roles: SOC Analyst, Junior Cybersecurity Analyst, Security Intern, Penetration Tester
+Professional Experience
+Cybersecurity Research Intern
+National Institute of Technology (NIT) Rourkela
+May 2024 – July 2024
+Developed Python-based security tools for application vulnerability detection as research intern
+Gained experience in automated threat monitoring and vulnerability assessment processes
+Implemented security monitoring dashboards using Wazuh agents for threat detection
+Collaborated on cybersecurity research projects under faculty supervision
+Technologies: Python, Bash, Wazuh, Linux Security
+Ethical Hacking Intern
+Craw Security
+2024
+Gained practical experience in penetration testing and vulnerability assessment methodologies
+Performed security assessments and learned to document findings with remediation steps
+Applied ethical hacking techniques and tools in controlled training environments
+Key Projects
+Malware Identification & Analysis Platform
+2024
+Built malware detection dashboard with static analysis capabilities as academic project
+Integrated Wazuh agents for real-time threat monitoring and security event logging
+Developed understanding of threat detection workflows and security incident response
+Python, Bash, Wazuh, Security Analysis
+Network Security Automation System
+2024
+Created network monitoring system with automated security alert capabilities
+Learned to implement proactive threat detection mechanisms for system security
+Developed scripts for automated security monitoring as learning project
+Python, Bash, Network Security, Linux
+Python Vulnerability Scanner
+2024
+Built security analysis tool using Abstract Syntax Trees (AST) and Control Flow Graphs
+Automated detection of security flaws in open-source Python applications
+Python, AST, CFG, Static Analysis
+Achievements
+AIR 350 - NCIIPC Pentathon Government CTF 2024
+Winner - Smart India Hackathon 2023 (Internal)
+Finalist - Smart India Hackathon 2024 (Internal)
+TCS HackQuest Season 9 - Solved 7 Flags
+Winner - Robo Sumo Competition, Tech Fest 2024
+Finalist - Droid Blitz Competition, Kshitij 2025, IIT Kharagpur
+Education
+Bachelor of Technology - Computer Science & Engineering
+GIET University, Gunupur, Odisha
+2021 – 2025
+CGPA: 6.85 | Specialization: Cybersecurity & Network Security
+Higher Secondary Education (12th)
+Govt. Higher Secondary School, Rourkela
+2019 – 2021
+Marks: 536/600 (89.33%)
+Technical Skills
+Security Tools
+Wazuh, Nessus, Elastic Stack, Wireshark, Burp Suite, Metasploit
+Programming
+Python, Bash Scripting, PowerShell, SQL
+Operating Systems
+Linux (Ubuntu, Kali), Windows Server, Unix
+Cybersecurity
+Penetration Testing, Vulnerability Assessment, Digital Forensics, Malware Analysis, Network Security, Incident Response
+Leadership & Activities
+President - Robotics Science Club
+GIET University (2022-2024)
+Led 100+ member association, organized technical workshops
+Managed operations and mentored students in robotics projects
+TryHackMe Cybersecurity Practice
+30+ Rooms Completed
+Hands-on experience in penetration testing and digital forensics
+Active learner in cybersecurity community (Profile: Darkyhunter)
+Certifications
+Certified Ethical Hacker (CEH) v13 Training - EC-Council (2024)
+NSE 1 & NSE 2 - Fortinet Network Security (2024)
+Cybersecurity Fundamentals - Academic Coursework
+Coursework
+Cybersecurity Fundamentals • Ethical Hacking • Network Security • Digital Forensics • Penetration Testing • Malware Analysis • Information Security • Operating Syst

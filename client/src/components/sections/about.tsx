@@ -9,17 +9,8 @@ export default function About() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="animate-slideInLeft">
-            <img
-              src="https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
-              alt="Cybersecurity professional workspace with multiple monitors"
-              className="rounded-xl shadow-2xl w-full"
-              data-testid="img-workspace"
-            />
-          </div>
-
-          <div className="animate-slideInRight">
+        <div className="max-w-4xl mx-auto">
+          <div className="animate-fadeInUp text-center">
             <h3 className="text-2xl font-bold mb-6 text-primary">
               Cybersecurity Analyst & Security Researcher
             </h3>

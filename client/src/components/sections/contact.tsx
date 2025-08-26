@@ -74,13 +74,26 @@ export default function Contact() {
             </div>
           </div>
 
-          <div>
-            <img
-              src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
-              alt="Modern cybersecurity operations center with multiple screens"
-              className="rounded-xl shadow-2xl w-full h-auto"
-              data-testid="img-contact-visual"
-            />
+          <div className="terminal-card hanging-card p-8 rounded-xl">
+            <h3 className="text-2xl font-bold mb-6 text-foreground">Professional Testimonials</h3>
+            
+            <div className="space-y-6">
+              <div className="border-l-4 border-primary pl-4">
+                <blockquote className="text-muted-foreground italic mb-2">
+                  "Jyoti demonstrates exceptional aptitude in cybersecurity research and has shown remarkable dedication to understanding complex security frameworks during his internship at NIT Rourkela."
+                </blockquote>
+                <cite className="text-primary font-semibold">- Dr. D.P. Mohapatra</cite>
+                <p className="text-sm text-muted-foreground">Professor, NIT Rourkela</p>
+              </div>
+              
+              <div className="border-l-4 border-accent pl-4">
+                <blockquote className="text-muted-foreground italic mb-2">
+                  "As President of the Robotics Science Club, Jyoti has shown outstanding leadership skills and technical expertise in robotics and automation systems."
+                </blockquote>
+                <cite className="text-accent font-semibold">- Ashish Tiwary</cite>
+                <p className="text-sm text-muted-foreground">Assistant Professor & Head of SARS Club, GIET University Gunupur</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
