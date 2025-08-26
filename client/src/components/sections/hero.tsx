@@ -1,3 +1,5 @@
+import profileImage from "@assets/profile pic_1756183829517.jpg";
+
 export default function Hero() {
   const scrollToContact = () => {
     const element = document.getElementById("contact");
@@ -77,7 +79,7 @@ export default function Hero() {
           <div className="relative animate-float">
             <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-primary cyber-glow animate-glow">
               <img
-                src="/attached_assets/profile pic_1756183829517.jpg"
+                src={profileImage}
                 alt="Jyoti Ranjan Barik - Professional Headshot"
                 className="w-full h-full object-cover"
                 data-testid="img-profile"
