@@ -75,7 +75,7 @@ export default function Contact() {
           </div>
 
           <div className="terminal-card hanging-card p-8 rounded-xl">
-            <h3 className="text-2xl font-bold mb-6 text-foreground">Professional Testimonials</h3>
+            <h3 className="text-2xl font-bold mb-6 text-foreground">Academic Testimonials</h3>
             
             <div className="space-y-6">
               <div className="border-l-4 border-primary pl-4">

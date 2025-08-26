@@ -49,11 +49,11 @@ export default function Hero() {
             <span className="block gradient-text">Barik</span>
           </h1>
           <p className="text-xl sm:text-2xl text-primary mb-6 font-medium">
-            Cybersecurity Professional
+            Cybersecurity Enthusiast
           </p>
           <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-            Passionate cybersecurity analyst with expertise in threat detection, vulnerability assessment,
-            and security operations. Certified professional with hands-on experience in modern security frameworks.
+            Aspiring cybersecurity analyst with expertise in threat detection, vulnerability assessment,
+            and security operations. Certified enthusiast with hands-on experience in modern security frameworks.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <button
@@ -77,7 +77,7 @@ export default function Hero() {
           <div className="relative animate-float">
             <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-primary cyber-glow animate-glow">
               <img
-                src="/attached_assets/profile pic_1756183194366.jpg"
+                src="/attached_assets/profile pic_1756183829517.jpg"
                 alt="Jyoti Ranjan Barik - Professional Headshot"
                 className="w-full h-full object-cover"
                 data-testid="img-profile"

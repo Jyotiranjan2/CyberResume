@@ -17,8 +17,8 @@ export default function About() {
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
               Final year Computer Science Engineering student at GIET University with a passion for cybersecurity.
               Research intern at NIT Rourkela, specializing in Python application security and automated vulnerability
-              detection. Through hands-on projects and industry certifications, I've developed expertise in malware
-              analysis, ethical hacking, and security tool development.
+              detection. Through hands-on projects and industry certifications, I'm developing expertise in malware
+              analysis, ethical hacking, and security tool development as an aspiring cybersecurity enthusiast.
             </p>
 
             <div className="grid grid-cols-2 gap-6 mb-8">
